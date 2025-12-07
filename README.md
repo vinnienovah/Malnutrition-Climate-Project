@@ -53,3 +53,39 @@ pacman::p_load(
   sjPlot, ggeffects, kableExtra, flextable,
   caret
 )
+
+
+## Methodology
+
+### Seasonal Framework
+
+Kenya experiences two main rainy seasons:
+
+- **MAM (Long Rains):** March-April-May - Assessed in July
+- **OND (Short Rains):** October-November-December - Assessed in February (next year)
+
+### Drought Classification
+
+| Category | Rainfall Anomaly |
+|----------|------------------|
+| Extreme Drought | < -2.0 |
+| Severe Drought | -2.0 to -1.5 |
+| Moderate Drought | -1.5 to -1.0 |
+| Mild Drought | -1.0 to -0.5 |
+| Normal | -0.5 to 0.5 |
+| Wet | 0.5 to 1.0 |
+| Very Wet | 1.0 to 1.5 |
+| Extreme Wet | > 1.5 |
+
+### Statistical Models Used
+
+1. **Linear Mixed Models (LMM)** - For log-transformed outcomes with random effects
+2. **Generalized Linear Mixed Models (GLMM)** - Negative binomial for count data
+3. **Generalized Additive Models (GAM)** - For capturing non-linear relationships
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/climate-malnutrition-kenya.git
