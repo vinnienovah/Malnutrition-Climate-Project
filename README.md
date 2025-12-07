@@ -53,7 +53,7 @@ pacman::p_load(
   sjPlot, ggeffects, kableExtra, flextable,
   caret
 )
-
+```
 
 ## Methodology
 
