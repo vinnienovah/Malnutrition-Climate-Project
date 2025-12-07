@@ -88,4 +88,4 @@ Kenya experiences two main rainy seasons:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/climate-malnutrition-kenya.git
+git clone https://github.com/vinnienovah/Malnutrition-Climate-Project.git
